@@ -8,16 +8,16 @@
 				<class name="OoevvProcess"/>
 			</classes>
 			<pvLinks>
-				<pvLink c1="Term" role="ontology" pv2="Ontology" c2="Ontology"/>
+				<pvLink c1="OoevvElement" role="ooevvSet" pv2="OoevvElementSet" c2="OoevvElementSet"/>
 				<pvLink c1="OoevvProcess" role="obiTerm" pv2="ObiDefinition" c2="Term"/>
 			</pvLinks>
 			<conditions>
 				<condition c="OoevvElement" a="elementType" v="OoevvProcess"/>
 			</conditions>
 		</primitive>
-		<primitive name="Ontology" nullable="true">
+		<primitive name="OoevvElementSet" nullable="true">
 			<classes>
-				<class name="Ontology"/>
+				<class name="Term"/>
 				<class name="OoevvElementSet"/>
 			</classes>
 		</primitive>
@@ -35,10 +35,9 @@
 			</classes>
 		</primitive>
 	</primitives>
-	<vpdmfLabel format="OoevvElementSet: $1$:$2$ ($3$)" />
+	<vpdmfLabel format="$1$ ($2$)" />
 	<indexElements>
-		<indexElement pos="1" p="Ontology" c="Ontology" a="shortName" />
-		<indexElement pos="2" p="Term" c="Term" a="shortTermId" />
-		<indexElement pos="3" p="Term" c="Term" a="termValue" />
+		<indexElement pos="1" p="Term" c="Term" a="shortTermId" />
+		<indexElement pos="2" p="Term" c="Term" a="termValue" />
 	</indexElements>
 </view>

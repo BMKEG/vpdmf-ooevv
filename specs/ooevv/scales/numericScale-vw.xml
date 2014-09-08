@@ -7,24 +7,14 @@
 				<class name="MeasurementScale"/>
 				<class name="NumericScale" />
 			</classes>
-			<pvLinks>
-				<pvLink c1="Term" role="ontology" pv2="Ontology" c2="Ontology"/>
-			</pvLinks>
 			<conditions>
 				<condition c="MeasurementScale" a="classType" v="BinaryScale"/>
 			</conditions>
 		</primitive>
-		<primitive name="Ontology" nullable="true">
-			<classes>
-				<class name="Ontology"/>
-				<class name="OoevvElementSet"/>
-			</classes>
-		</primitive>
 	</primitives>
-	<vpdmfLabel format="NumericScale: $1$:$2$ ($3$)" />
+	<vpdmfLabel format="$1$ ($2$)" />
 	<indexElements>
-		<indexElement pos="1" p="Ontology" c="Ontology" a="shortName" />
-		<indexElement pos="2" p="Term" c="Term" a="shortTermId" />
-		<indexElement pos="3" p="Term" c="Term" a="termValue" />
+		<indexElement pos="1" p="Term" c="Term" a="shortTermId" />
+		<indexElement pos="2" p="Term" c="Term" a="termValue" />
 	</indexElements>
 </view>

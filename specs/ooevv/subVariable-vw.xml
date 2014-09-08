@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<view name="ExperimentalVariable" type="Data" parent="OoevvElement">
+<view name="SubVariable" type="Data" parent="ExperimentalVariable">
 	<primitives>
 		<primitive name="Term">
 			<classes>
 				<class name="Term"/>
 				<class name="OoevvElement"/>
 				<class name="ExperimentalVariable"/>
+				<class name="SubVariable"/>
 			</classes>
 			<pvLinks>
 				<pvLink c1="OoevvElement" role="ooevvSet" pv2="OoevvElementSet" c2="OoevvElementSet"/>
