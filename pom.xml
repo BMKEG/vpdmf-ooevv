@@ -16,6 +16,7 @@
  	<properties>
 		<vpdmf.model.type>MagicDraw</vpdmf.model.type>
 		<vpdmf.model.path>vpdmf-ooevv.xml</vpdmf.model.path>
+		<vpdmf.model.url>http://bmkeg.isi.edu/ooevv</vpdmf.model.url>
 		<vpdmf.viewsPath>specs</vpdmf.viewsPath>
 		<vpdmf.nestedModels>${basedir}/../vpdmf-people/ ${basedir}/../vpdmf-terminology/</vpdmf.nestedModels>  	
  	</properties>
